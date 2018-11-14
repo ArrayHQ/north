@@ -5,7 +5,7 @@
 class north_recent_portfolio extends WP_Widget {
 
 	/** constructor */
-	function north_recent_portfolio() {
+	public function __construct() {
 		parent::__construct( false, $name = __( 'North Portfolio Widget', 'north' ) );
 	}
 
